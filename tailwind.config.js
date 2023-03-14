@@ -10,7 +10,11 @@ module.exports = {
   ],
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)']
+      }
+    },
   },
   plugins: [],
 }
